@@ -1,17 +1,19 @@
 import React from 'react';
-import {Button} from '@storybook/react/demo';
+import editLogo from '../assets/edit.svg'
 import './styles.css'
 
 export default {title: 'Buttons'};
 
-export const withText = () => <Button className="lol">Button with text</Button>;
+export const connexion = () => <button className="btn-connexion">Connection</button>;
 
-export const withEmoji = () => (
-    <Button><span role="img" aria-label="so cool">😀</span></Button>
-);
+export const deconnexion = () => <button className="btn-deconnexion">Disconnection</button>;
 
-export const withEmojiss = () => (
-    <Button><span role="img" aria-label="so cool">😀</span></Button>
-);
+export const help = () => <button className="btn-help">?</button>;
+
+export const edit = () => <button className="btn-edit">
+    <img src={editLogo} alt="edit"/>
+</button>;
+
+
 
 

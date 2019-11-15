@@ -46,3 +46,144 @@
     border: 2px solid #FFFFFF;
 
 }
+
+/*Button*/
+
+.btn-connexion {
+    font-family: "BentonSans", sans-serif;
+    width: 110px;
+    height: 30px;
+    background-color: #45D492;
+    border-radius: 6px;
+    color: #C3F8DF;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-deconnexion {
+    font-family: "BentonSans", sans-serif;
+    width: 110px;
+    height: 30px;
+    background-color: #852931;
+    border-radius: 6px;
+    color: #FBA8A2;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-help {
+    font-family: "BentonSans", sans-serif;
+    width: 30px;
+    height: 30px;
+    background-color: #656D79;
+    border-radius: 6px;
+    color: #D5D5D5;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-edit {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #E8E8E8;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/*Link*/
+.intranet, .OGP, .OGI {
+    font-family: "BentonSans", sans-serif;
+    font-size: 17px;
+    display: flex;
+    color: #656D79;
+    cursor: pointer;
+}
+
+.intranet, .OGP, .OGI:hover {
+    text-decoration: underline;
+}
+
+.padding-intra {
+    padding-left: 5px;
+}
+
+.categories-content {
+    font-family: "BentonSans", sans-serif;
+}
+
+.categories-list {
+    list-style: none;
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.categories-item-active {
+    color: #000000;
+}
+
+.categories-item {
+    color: #D5D5D5;
+    margin: 0 30px;
+}
+
+.green-underline {
+    width: 40px;
+    height: 3px;
+    background-color: #45D291;
+}
+
+.text-content-profile {
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.edit-profile {
+    background-color: #282c34;
+    font-family: "BentonSans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-profile {
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: end;
+    margin: 0;
+}
+
+.edit-link {
+    color: #656D79;
+    font-size: 10px;
+    margin: 0;
+}
+
+.profile-picture {
+    width: 50%;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #09d3ac;
+    margin-left: 10px;
+}
+
+
+/*Input*/
