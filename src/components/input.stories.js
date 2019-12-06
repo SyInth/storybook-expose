@@ -1,26 +1,29 @@
 import React from 'react';
 import editLogo from '../assets/edit.svg'
-import './styles.css'
+import './styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Form } from 'react-bootstrap';
 
 export default {title: 'Input'};
 
-export const notes = () => <button className="btn-connexion">Connexion</button>;
+export const notes = () => 
+<div id="notes">
+<div className="radius">
+    <p>A</p>
+    </div>
+    <p>Back</p>
+</div>;
 
-export const lastName = () => <button className="btn-deconnexion">Déconnexion</button>;
+export const lastName = () => 
+<Form.Control placeholder="Lastname" />;
 
-export const firstName = () => <button className="btn-help">?</button>;
+export const firstName = () => <Form.Control placeholder="Firstname" />;
 
-export const email = () => <button className="btn-edit">
-    <img src={editLogo} alt="edit"/>
-</button>;
+export const email = () => <Form.Control placeholder="Email" />;
 
-export const cursus = () => <button className="btn-edit">
-    <img src={editLogo} alt="edit"/>
-</button>;
+export const cursus = () => <Form.Control placeholder="Description"/>;
 
-export const password = () => <button className="btn-edit">
-    <img src={editLogo} alt="edit"/>
-</button>;
+export const password = () => <Form.Control placeholder="Password" />;
 
 
 
