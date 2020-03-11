@@ -1,19 +1,12 @@
 import React from 'react';
-import editLogo from '../assets/edit.svg'
 import './styles.css'
 
 export default {title: 'Buttons'};
 
-export const connexion = () => <button className="btn-connexion">Connection</button>;
+export const green = () => <button className="green-btn">Valider</button>;
 
-export const deconnexion = () => <button className="btn-deconnexion">Disconnection</button>;
+export const red = () => <button className="red-btn">Valider</button>;
 
-export const help = () => <button className="btn-help">?</button>;
+export const slideToggle = () => <button className="slide-toggle-btn"></button>;
 
-export const edit = () => <button className="btn-edit">
-    <img src={editLogo} alt="edit"/>
-</button>;
-
-
-
-
+export const linkCreateAccount = () => <p className="create-account-link">Créer un compte</p>;
